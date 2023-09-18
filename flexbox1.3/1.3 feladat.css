@@ -1,0 +1,23 @@
+.alap{
+    width:100%;
+    height: 300px;
+    display: flex;
+}
+
+#zold{
+    background-color: purple;
+    width: 25%;
+    height:300px;
+}
+#sarga{
+    background-color: yellow;
+    height: 300px;
+    width: 50%;
+}
+#lila{
+    background-color: green;
+    height: 300px;
+    width: 25%;
+}
+
+
