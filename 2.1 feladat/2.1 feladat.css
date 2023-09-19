@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.alap{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#zold {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: none;
+}
+
+#sarga {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: none;
+}
+
+#lila{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    display: flex;
+}
