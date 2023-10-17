@@ -1,0 +1,26 @@
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 60%;
+    background-color:darkred;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.doboz {
+height: 40%;
+width: 40%;
+}
+
+#egy {
+    background-color: burlywood;
+}
+
+#ketto {
+    background-color:aqua;
+}
+
+#harom {
+background-color: chartreuse;
+}
