@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codewars Felhasználói Statisztikák</title>
+    <link rel="stylesheet" href="stilus.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Codewars Statisztikák</h1>
+      <nav>
+        <ul>
+          <li><a href="#" id="osszesitett">Összesített pontok</a></li>
+          <li><a href="#" id="nyelvek">Pontok nyelvek szerint</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="kereses">
+        <label for="username">Felhasználónév: </label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Írj be egy felhasználónevet"
+        />
+        <button id="keres">Keresés</button>
+      </section>
+
+      <section id="eredmenyek">
+        <div id="osszesitettEredmeny" class="hidden"></div>
+        <div id="nyelvekEredmeny" class="hidden"></div>
+        <div id="hibaUzenet" class="hidden"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
